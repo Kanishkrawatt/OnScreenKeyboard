@@ -1,0 +1,86 @@
+
+.keyboard{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    background-color: black;
+}
+body{
+    background-color:yellow;
+    letter-spacing: 2px;
+    }
+
+p{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: -10px;
+    border-radius: 2px;
+    border: 0.4px solid black;
+    background-color: aliceblue;
+}
+
+#esc{
+    background-color: aquamarine;
+}
+#back{
+    width: 80px;
+    background-color: grey;
+}
+#tab{
+    width: 80px;
+    background-color: grey;
+
+    
+}
+#caps{
+    width: 90px;
+    background-color: grey;
+
+}
+#enter{
+    width: 101.4px;
+    background-color:aquamarine;
+
+}
+#left-shift,#right-shift{
+    width: 126.5px;
+    background-color: grey;
+
+}
+#fn,#left-alt,#right-alt,#left-ctrl,#right-ctrl{
+    width: 70.4px;
+    background-color: grey;
+}
+#space{
+    width: 470px;
+    background-color: aquamarine;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+
+}
+.theme{
+    
+    position: relative;
+    left:76%;
+    top: 310px;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.theme1:focus .keyboard{
+    background-color: aliceblue;
+
+}
